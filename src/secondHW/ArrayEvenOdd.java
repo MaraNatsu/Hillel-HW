@@ -15,6 +15,7 @@ public class ArrayEvenOdd {
         }
 
         System.out.println();
+        System.out.println();
 
         System.out.println("Odd numbers:");
 
