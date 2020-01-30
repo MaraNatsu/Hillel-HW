@@ -4,7 +4,7 @@ public class Matrix {
     public static void main(String[] args) {
         int startingNumber = 1;
         int endingNumber = 64;
-        int currentNumber = 1;
+        int iterableNumber = 1;
 
         while (startingNumber * startingNumber < endingNumber) {
             startingNumber++;
@@ -12,8 +12,8 @@ public class Matrix {
 
         for (int i = 0; i < startingNumber; i++) {
             for (int j = 0; j < startingNumber; j++) {
-                if (currentNumber <= endingNumber) {
-                    System.out.print(currentNumber++ + "  ");
+                if (iterableNumber <= endingNumber) {
+                    System.out.print(iterableNumber++ + "  ");
                 }
             }
             System.out.println();
