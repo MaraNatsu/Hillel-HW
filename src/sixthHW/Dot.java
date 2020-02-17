@@ -1,8 +1,8 @@
 package sixthHW;
 
 public class Dot {
-    double x;
-    double y;
+    public double x;
+    public double y;
 
     public Dot(double x, double y) {
         this.x = x;

@@ -1,7 +1,5 @@
 package thirdHW;
 
-import seventhHW.Vehicle;
-
 public class ShortAndLongNumbers {
     public static void main(String[] args) {
 
