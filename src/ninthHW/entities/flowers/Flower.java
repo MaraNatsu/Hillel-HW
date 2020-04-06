@@ -1,11 +1,11 @@
 package ninthHW.entities.flowers;
 
 public class Flower {
-    String name;
-    double price;
-    int flowerFreshness;
-    double stemLength;
-    String icon = " ✿ ";
+    private String name;
+    private double price;
+    private int flowerFreshness;
+    private double stemLength;
+    protected String icon = " ✿ ";
 
     public Flower(String name, double price, int flowerFreshness, double stemLength) {
         this.name = name;

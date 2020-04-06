@@ -1,12 +1,14 @@
 package ninthHW.entities;
 
 public class Accessory {
-    String name;
-    double price;
+    private String name;
+    private double price;
+    private String icon;
 
     public Accessory(String name, double price) {
         this.name = name;
         this.price = price;
+        this.icon = " \uD83C\uDF80 ";
     }
 
     public String getName() {
@@ -27,7 +29,7 @@ public class Accessory {
 
     @Override
     public String toString() {
-        return " \uD83C\uDF80 " + name + '\n' +
+        return icon + name + '\n' +
                 "    Price: " + price + " UAH" + '\n';
     }
 }

@@ -9,6 +9,6 @@ public class Runner {
         System.out.println("          --- Welcome to \"Flowers\" ---" + '\n' + '\n' +
                 "Enter the number of action which you want to do." + '\n');
 
-        consoleProcessor.consoleProcessor();
+        consoleProcessor.startConsoleApp();
     }
 }

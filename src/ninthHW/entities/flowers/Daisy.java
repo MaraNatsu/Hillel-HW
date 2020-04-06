@@ -1,7 +1,7 @@
 package ninthHW.entities.flowers;
 
 public class Daisy extends Flower {
-    int flowersInBranch;
+    private int flowersInBranch;
 
     public Daisy(int flowersInBranch, double price, int flowerFreshness, double stemLength) {
         super("Daisy", price, flowerFreshness, stemLength);

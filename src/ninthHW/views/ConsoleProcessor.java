@@ -47,7 +47,7 @@ public class ConsoleProcessor {
             "4. Add an accessory." + '\n' +
             "0. Back." + '\n';
 
-    public void consoleProcessor() {
+    public void startConsoleApp() {
         int userChoice;
 
         do {
@@ -188,7 +188,7 @@ public class ConsoleProcessor {
         int userChoice;
 
         do {
-            System.out.println(userBouquet.flowers[userBouquet.flowers.length - 1]);
+            System.out.println(userBouquet.getFlowers()[userBouquet.getFlowers().length - 1]);
 
             System.out.println(addFlowerMenu);
             userChoice = scanner.nextInt();
@@ -209,8 +209,8 @@ public class ConsoleProcessor {
 
         int userChoice;
 
-        for (int i = 0; i < userBouquet.accessories.length; i++) {
-            System.out.println(userBouquet.accessories[i]);
+        for (int i = 0; i < userBouquet.getAccessories().length; i++) {
+            System.out.println(userBouquet.getAccessories()[i]);
         }
 
         do {

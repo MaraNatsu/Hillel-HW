@@ -3,13 +3,15 @@ package ninthHW.entities;
 import ninthHW.entities.flowers.Flower;
 
 public class Bouquet {
-    public String name;
-    public double price = 0;
-    public Flower[] flowers = new Flower[0];
-    public Accessory[] accessories = new Accessory[0];
+    private String name;
+    private double price = 0;
+    private Flower[] flowers = new Flower[0];
+    private Accessory[] accessories = new Accessory[0];
+    private String icon;
 
     public Bouquet(String name) {
         this.name = name;
+        this.icon = "\uD83D\uDC90 ";
     }
 
     public double getPrice() {
@@ -57,7 +59,7 @@ public class Bouquet {
             accessoriesToString += accessories[j].toString();
         }
 
-        return "\uD83D\uDC90 " + name + '\n' + "Bouquet price is: " + price + " UAH" + '\n' +
+        return icon + name + '\n' + "Bouquet price is: " + price + " UAH" + '\n' +
                 flowersToString + accessoriesToString + '\n';
     }
 }

@@ -1,12 +1,12 @@
 package ninthHW.entities.flowers;
 
-public class Peony extends Flower {
+public class Rose extends Flower {
     private String colour;
 
-    public Peony(String colour, double price, int flowerFreshness, double stemLength) {
-        super("Peony", price, flowerFreshness, stemLength);
+    public Rose(String colour, double price, int flowerFreshness, double stemLength) {
+        super("Rose", price, flowerFreshness, stemLength);
         this.colour = colour;
-        this.icon = " ❀ ";
+        this.icon = " \uD83C\uDF39 ";
     }
 
     public String getColour() {

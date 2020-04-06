@@ -5,13 +5,13 @@ import ninthHW.entities.Bouquet;
 public class BouquetStorage {
     private Bouquet[] bouquets = new Bouquet[0];
 
+    public BouquetStorage() {
+    }
+
     private void copyBouquet(Bouquet[] to, Bouquet[] from) {
         for (int i = 0; i < from.length; i++) {
             to[i] = from[i];
         }
-    }
-
-    public BouquetStorage() {
     }
 
     public void addBouquet(Bouquet bouquet) {
