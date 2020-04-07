@@ -1,6 +1,6 @@
 package thriteenthHW.vehicles;
 
-import eleventhHW.vehicles.interfaces.*;
+import thriteenthHW.vehicles.interfaces.*;
 
 public class Lorry extends Vehicle implements IVehicle, ILorry {
     private double tonnage;

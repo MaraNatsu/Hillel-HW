@@ -4,11 +4,11 @@ public class Recursion {
 
     static int n;
 
-    static void recursiveFunction() {
+    static void recursiveFunction(int value) {
         n++;
-        if (n <= 18) {
+        if (n <= value) {
             System.out.print(n + " ");
-            recursiveFunction();
+            recursiveFunction(value);
             n++;
         }
     }
@@ -21,8 +21,9 @@ public class Recursion {
     }
 
     public static void main(String[] args) {
-        recursiveFunction();
+        int val = 6;
+        recursiveFunction(val);
         System.out.println();
-        System.out.println("The sum of numbers in 18 is: " + sum(18));
+        System.out.println("The sum of numbers in " + val + " is: " + sum(val));
     }
 }
